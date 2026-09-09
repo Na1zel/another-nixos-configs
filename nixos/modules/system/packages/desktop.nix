@@ -9,16 +9,15 @@
 
     # Wayland screenshot / clipboard / input
     wl-clipboard grim slurp wev pamixer
+    kdePackages.qtstyleplugin-kvantum
 
     # Terminal
-    foot
+    
 
     # GTK / Qt theming
     adw-gtk3 bibata-cursors papirus-icon-theme adwaita-icon-theme
-    kdePackages.qt6ct
 
     # Bluetooth / network / audio GUI (для waybar on-click)
-    blueman pavucontrol networkmanagerapplet
-
+    pavucontrol networkmanagerapplet
   ];
 }

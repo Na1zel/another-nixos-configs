@@ -108,7 +108,8 @@
             toolbar = true;
             bookmarks = [
               { name = "Internet-Archive";  url = "https://archive.org/"; }
-              { name = "Aero-Wallpapers";   url = "https://frutigeraeroarchive.org/"; }
+              { name = "ArchiveOS";         url = "https://archiveos.org/"; }
+              { name = "Aero-Archive";      url = "https://frutigeraeroarchive.org/"; }
               { name = "Wallhaven";         url = "https://wallhaven.cc/"; }
               { name = "Sacenao";           url = "https://saucenao.com/"; }
               { name = "WallpaperCave";     url = "https://wallpapercave.com/"; }

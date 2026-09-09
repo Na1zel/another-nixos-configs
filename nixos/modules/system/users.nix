@@ -14,6 +14,6 @@
       "gamemode"
     ];
 
-    shell = pkgs.fish;
+    shell = pkgs.zsh;
   };
 }

@@ -16,7 +16,7 @@
     ayugram-desktop vesktop
 
     # Torrents
-    qbittorrent-enhanced
+    kdePackages.ktorrent
 
     # KDE utilities
     kdePackages.partitionmanager

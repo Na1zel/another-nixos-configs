@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./foot.nix
-    ./fish.nix
+    ./alacritty.nix
+    ./zsh.nix
     ./vscodium.nix
     ./obs.nix
     ./vim.nix

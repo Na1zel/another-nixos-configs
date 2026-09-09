@@ -8,6 +8,7 @@
     btop-cuda # ставь просто btop если не nvidia
     htop nvtopPackages.full # убери если видеокарта не nvidia
     cmatrix tty-clock pipes-rs bat
+    iotop-c
 
     # Boot / firmware / security
     gnupg sbctl efibootmgr
@@ -19,7 +20,7 @@
     pciutils usbutils libusb1
 
     # Archives
-    unzip zip p7zip unrar innoextract
+    unzip zip _7zz unar innoextract
 
     # Terminal file manager / misc CLI
     yazi zellij tldr fzf
