@@ -5,7 +5,7 @@
 
   # Power management
   services.upower.enable = true;
-  services.power-profiles-daemon.enable = false;
+  services.power-profiles-daemon.enable = true;
   powerManagement.cpuFreqGovernor = "performance";
 
   # Desktop / filesystem integration
@@ -25,11 +25,6 @@
   programs.zsh.enable = true;
   programs.kdeconnect.enable = true;
   programs.partition-manager.enable = true;
-
-  programs.thunar.plugins = with pkgs; [
-    thunar-archive-plugin
-    thunar-volman
-  ];
 
   # Network analysis
   programs.wireshark = {

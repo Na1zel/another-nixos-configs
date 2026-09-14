@@ -4,7 +4,7 @@
   environment.systemPackages = with pkgs; [
 
     # Documents / viewers
-    zathura imv libreoffice-qt
+    zathura libreoffice-qt
 
     # Image / creative / 3D
     krita gimp darktable upscayl upscaler blender
@@ -19,10 +19,9 @@
     kdePackages.ktorrent
 
     # KDE utilities
-    kdePackages.partitionmanager
+    kdePackages.partitionmanager kdePackages.isoimagewriter
 
     # File manager
-    thunar
 
   ];
 }

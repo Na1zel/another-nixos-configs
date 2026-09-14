@@ -9,7 +9,7 @@
       "x-scheme-handler/terminal" = "Alacritty.desktop";
 
       # File manager
-      "inode/directory" = "org.xfce.Thunar.desktop";
+      "inode/directory" = "org.kde.dolphin.desktop";
 
       # Text
       "text/x-nix" = "org.kde.kate.desktop";
