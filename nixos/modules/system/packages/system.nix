@@ -8,13 +8,12 @@
     btop-cuda # ставь просто btop если не nvidia
     htop nvtopPackages.full # убери если видеокарта не nvidia
     cmatrix tty-clock pipes-rs bat
-    iotop-c
 
     # Boot / firmware / security
     gnupg sbctl efibootmgr
 
     # Disk / filesystem
-    smartmontools ntfs3g exfatprogs libva-utils ncdu duf abootimg
+    smartmontools ntfs3g exfatprogs libva-utils ncdu duf abootimg iotop-c
 
     # Hardware enumeration
     pciutils usbutils libusb1

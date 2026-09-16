@@ -8,8 +8,8 @@
     brightnessctl
 
     # Wayland screenshot / clipboard / input
-    #wl-clipboard grim slurp wev pamixer
-    kdePackages.qtstyleplugin-kvantum
+    #grim slurp wev pamixer
+    kdePackages.qtstyleplugin-kvantum wl-clipboard
 
     # Terminal
     

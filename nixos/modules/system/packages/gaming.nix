@@ -5,8 +5,8 @@
 
     # Gaming
     mangohud faugus-launcher mesa-demos gwe vkbasalt vkbasalt-cli rusty-path-of-building
-    vulkan-tools goverlay protonplus protontricks heroic prismlauncher
-    steam-run steamcmd wineWow64Packages.waylandFull winetricks protonup-qt
+    vulkan-tools goverlay heroic prismlauncher
+    steam-run steamcmd
 
     #nzportable # убрать когда выйдет уже 2.0.0 стабильный релиз
     #angband # убрать если хочешь поставить

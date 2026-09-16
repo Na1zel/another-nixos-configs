@@ -39,7 +39,7 @@
   };
 }
 
-# sudo chown -R $USER:users /home/naizel/ssd500gb # НАПИСАТЬ в терминале когда поставли этот конфиг
-# sudo chown -R $USER:users /home/naizel/hdd1tb
+# sudo chown -R naizel:users /home/naizel/ssd500gb # НАПИСАТЬ в терминале когда поставли этот конфиг
+# sudo chown -R naizel:users /home/naizel/hdd1tb
 # sudo chmod -R 755 /home/naizel/hdd1tb
 # sudo chmod -R 755 /home/naizel/ssd500gb

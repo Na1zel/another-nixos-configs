@@ -16,6 +16,7 @@
     open = true;
     nvidiaSettings = true;
     modesetting.enable = true;
+    nvidiaPersistenced = true;
   };
 
   environment.sessionVariables = {

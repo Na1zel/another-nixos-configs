@@ -7,7 +7,7 @@
     zathura libreoffice-qt
 
     # Image / creative / 3D
-    krita gimp darktable upscayl upscaler blender
+    krita gimp darktable upscayl upscaler
 
     # Video editing
     kdePackages.kdenlive

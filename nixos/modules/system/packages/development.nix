@@ -27,9 +27,9 @@
     #golangci-lint
 
     # JS / Java / Lua
-    nodejs
-    jdk maven gradle jdt-language-server
-    lua luajit luarocks lua-language-server stylua
+    #nodejs
+    #jdk maven gradle jdt-language-server
+    #lua luajit luarocks lua-language-server stylua
 
     # Shell tooling
     bash-language-server shellcheck shfmt
