@@ -20,7 +20,6 @@
   security.polkit.enable = true;
 
   # Programs
-  programs.zsh.enable = true;
   programs.kdeconnect.enable = true;
   programs.partition-manager.enable = true;
 

@@ -3,7 +3,6 @@
 {
   imports = [
   	./alacritty.nix
-    ./zsh.nix
     ./vscodium.nix
     ./obs.nix
     ./vim.nix

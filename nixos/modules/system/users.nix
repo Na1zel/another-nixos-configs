@@ -12,7 +12,5 @@
       "i2c"
       "gamemode"
     ];
-
-    shell = pkgs.zsh;
   };
 }
