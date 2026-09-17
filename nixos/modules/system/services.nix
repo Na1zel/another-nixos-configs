@@ -1,8 +1,6 @@
 { pkgs, ... }:
 
 {
-  environment.localBinInPath = true;
-
   # Power management
   services.upower.enable = true;
   services.power-profiles-daemon.enable = true;
@@ -27,8 +25,4 @@
   programs.partition-manager.enable = true;
 
   # Network analysis
-  programs.wireshark = {
-    enable = true;
-    package = pkgs.wireshark;
-  };
 }

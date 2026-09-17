@@ -10,7 +10,6 @@
       "wheel"
       "video"
       "i2c"
-      "wireshark"
       "gamemode"
     ];
 

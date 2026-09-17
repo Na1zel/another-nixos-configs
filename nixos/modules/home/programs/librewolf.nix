@@ -110,6 +110,7 @@
               { name = "Internet-Archive";  url = "https://archive.org/"; }
               { name = "ArchiveOS";         url = "https://archiveos.org/"; }
               { name = "Aero-Archive";      url = "https://frutigeraeroarchive.org/"; }
+              { name = "Desktops";          url = "https://deskto.ps/"; }
               { name = "Wallhaven";         url = "https://wallhaven.cc/"; }
               { name = "Sacenao";           url = "https://saucenao.com/"; }
               { name = "WallpaperCave";     url = "https://wallpapercave.com/"; }

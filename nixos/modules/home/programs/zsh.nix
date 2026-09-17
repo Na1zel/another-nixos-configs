@@ -21,13 +21,6 @@
     syntaxHighlighting = {
       enable = true;
       styles = {
-        # имя утилиты — белое, а не зелёное
-        command           = "fg=white";
-        builtin           = "fg=white";
-        function          = "fg=white";
-        alias             = "fg=white";
-        "hashed-command"  = "fg=white";
-
         # существующие пути — голубые с подчёркиванием, как в fish
         path              = "fg=cyan,underline";
         path_prefix       = "fg=cyan,underline";
