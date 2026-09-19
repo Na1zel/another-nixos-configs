@@ -6,7 +6,7 @@
 
     defaultApplications = {
       # Terminal
-      "x-scheme-handler/terminal" = "Alacritty.desktop";
+      "x-scheme-handler/terminal" = "kitty.desktop";
 
       # File manager
       "inode/directory" = "org.kde.dolphin.desktop";
@@ -81,7 +81,7 @@
 
     settings = {
       default = [
-        "Alacritty.desktop"
+        "kitty.desktop"
       ];
     };
   };

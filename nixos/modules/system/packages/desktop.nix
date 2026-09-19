@@ -11,11 +11,9 @@
     #grim slurp wev pamixer
     kdePackages.qtstyleplugin-kvantum wl-clipboard
 
-    # Terminal
-    
-
     # GTK / Qt theming
-    adw-gtk3 bibata-cursors papirus-icon-theme adwaita-icon-theme
+    adw-gtk3 papirus-icon-theme adwaita-icon-theme darkly
+    #bibata-cursors 
 
     # Bluetooth / network / audio GUI (для waybar on-click)
     #pavucontrol networkmanagerapplet

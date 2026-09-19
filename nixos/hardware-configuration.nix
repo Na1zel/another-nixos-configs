@@ -36,6 +36,16 @@
       options = [ "fmask=0077" "dmask=0077" ];
     };
 
+  fileSystems."/home/naizel/ssd500gb" =
+    { device = "/dev/disk/by-uuid/4c59b93b-4e1b-4013-855c-5bb765232f58";
+      fsType = "btrfs";
+    };
+
+  fileSystems."/home/naizel/hdd1tb" =
+    { device = "/dev/disk/by-uuid/cdd9ffc6-6d30-4ced-aae4-b13b9f2b2d29";
+      fsType = "btrfs";
+    };
+
   swapDevices =
     [ { device = "/dev/disk/by-uuid/9682a4c8-fe02-4705-bfb9-077de12aeca3"; }
     ];

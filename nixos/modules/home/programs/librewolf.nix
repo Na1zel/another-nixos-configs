@@ -1,10 +1,6 @@
 { ... }:
 
 {
-  # ============================================================
-  # LibreWolf
-  # ============================================================
-
   programs.librewolf = {
     enable = true;
     configPath = ".librewolf";
@@ -138,9 +134,12 @@
       };
 
       settings = {
-        "browser.uidensity"                       = 1;
-        "full-screen-api.warning.timeout"         = 0;
-        "browser.translations.automaticallyPopup" = false;
+        "browser.uidensity"                                  = 1;
+        "full-screen-api.warning.timeout"                    = 0;
+        "browser.translations.automaticallyPopup"            = false;
+        "privacy.resistFingerprinting"                        = false;
+        "privacy.fingerprintingProtection"                    = true;
+        "privacy.fingerprintingProtection.overrides"          = "+AllTargets,-CSSPrefersColorScheme";
       };
     };
   };

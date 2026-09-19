@@ -10,7 +10,7 @@
     cmatrix tty-clock pipes-rs bat
 
     # Boot / firmware / security
-    gnupg sbctl efibootmgr
+    gnupg sbctl efibootmgr e2fsprogs
 
     # Disk / filesystem
     smartmontools ntfs3g exfatprogs libva-utils ncdu duf abootimg iotop-c

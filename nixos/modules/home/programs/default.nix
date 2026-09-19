@@ -2,7 +2,7 @@
 
 {
   imports = [
-  	./alacritty.nix
+  	./kitty.nix
     ./vscodium.nix
     ./obs.nix
     ./vim.nix
