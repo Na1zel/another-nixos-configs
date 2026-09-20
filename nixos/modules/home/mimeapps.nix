@@ -18,9 +18,9 @@
       "application/x-bak" = "org.kde.kate.desktop";
 
       # Web
-      "text/html" = "librewolf.desktop";
-      "x-scheme-handler/http" = "librewolf.desktop";
-      "x-scheme-handler/https" = "librewolf.desktop";
+      "text/html" = "firefox.desktop";
+      "x-scheme-handler/http" = "firefox.desktop";
+      "x-scheme-handler/https" = "firefox.desktop";
 
       # Video
       "video/mp4" = "haruna.desktop";

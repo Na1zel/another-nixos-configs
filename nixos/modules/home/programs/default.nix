@@ -7,7 +7,7 @@
     ./obs.nix
     ./vim.nix
     ./micro.nix
-    ./librewolf.nix
+    ./firefox.nix
     ./gaming.nix
   ];
 }
