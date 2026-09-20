@@ -1,2 +1,2 @@
-# another-nixos-configs
+# my-nixos-configs
 configs for nixos with modules.
