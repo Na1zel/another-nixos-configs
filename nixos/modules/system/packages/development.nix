@@ -7,13 +7,18 @@
     git ripgrep fd tree-sitter tree jq yq perl httpie
 
     # Build toolchain (C/C++)
-    gcc clang clang-tools
-    gnumake cmake ninja binutils
-    gdb lld pkg-config
-    autoconf automake libtool patch fakeroot
+    gcc
 
     # Python
-    python3 python3Packages.python-lsp-server pyright uv
+    (python3.withPackages (ps: with ps; [
+          python-lsp-server
+          python-lsp-black
+          black
+        ]))
+        pyright uv
+
+    # typing
+    klavaro
 
     #rustc # Добавить если надо
     #cargo
