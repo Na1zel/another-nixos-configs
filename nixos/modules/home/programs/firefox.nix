@@ -34,6 +34,7 @@
               { name = "Home Manager Manual";  url = "https://nix-community.github.io/home-manager/"; }
               { name = "MyNixOS";              url = "https://mynixos.com/"; }
               { name = "Noogle";               url = "https://noogle.dev/"; }
+              { name = "NixOS";                url = "https://nixos.org/"; }
             ];
           }
 
@@ -46,7 +47,6 @@
               { name = "PCGamingWiki";         url = "https://www.pcgamingwiki.com/"; }
               { name = "GamingOnLinux";        url = "https://www.gamingonlinux.com/"; }
               { name = "Lutris";               url = "https://lutris.net/"; }
-              { name = "Heroic";               url = "https://heroicgameslauncher.com/"; }
               { name = "Flathub";              url = "https://flathub.org/"; }
               { name = "OpenGameArt";          url = "https://opengameart.org/"; }
               { name = "AreWeAntiCheatYet";    url = "https://areweanticheatyet.com/"; }
@@ -84,19 +84,18 @@
           name = "GithubProjects";
           toolbar = true;
           bookmarks = [
-            { name = "GuideForEverething";            url = "https://github.com/fmhy/FMHY/wiki"; }
+            { name = "GuideForEverething";          url = "https://github.com/fmhy/FMHY/wiki"; }
           ];
          }
 
          {
-          name = "LinuxDistros";
+          name = "OtherLinuxDistros";
           toolbar = true;
           bookmarks = [
             { name = "GentooLinux";       url = "https://www.gentoo.org/"; }
             { name = "VoidLinux";         url = "https://voidlinux.org/"; }
             { name = "ArchLinux";         url = "https://archlinux.org/"; }
             { name = "FreeBSD";           url = "https://www.freebsd.org/"; }
-            { name = "NixOS";             url = "https://nixos.org/"; }
           ];
          }
 
@@ -114,6 +113,13 @@
               { name = "DOTABUFF";          url = "https://ru.dotabuff.com/"; }
               { name = "LOR";               url = "https://www.linux.org.ru/"; }
               { name = "Pingvinus";         url = "https://pingvinus.ru/"; }
+              { name = "rus-linux";         url = "https://rus-linux.net/"; }
+              { name = "WikiLeaks";         url = "https://wikileaks.org/"; }
+              { name = "Unixforum-ru";      url = "https://unixforum.org/"; }
+              { name = "native-english-ru"; url = "https://www.native-english.ru/"; }
+              { name = "wiktionary";        url = "https://ru.wiktionary.org/"; }
+              { name = "MDN-web-docs";      url = "https://developer.mozilla.org/ru/docs/Glossary/"; }
+              { name = "Flibusta";          url = "https://flibusta.is/"; }
               { name = "NeoLurk";           url = "https://neolurk.org/"; }
               { name = "2chan";             url = "https://2ch.org/"; }
               { name = "4chan";             url = "https://4chan.org/"; }
@@ -172,6 +178,31 @@
         "app.shield.optoutstudies.enabled" = false;
         "app.normandy.enabled" = false;
         "browser.crashReports.unsubmittedCheck.autoSubmit2" = false;
+
+        # Firefox Suggest выкл
+        "browser.urlbar.quicksuggest.enabled" = false;
+        "browser.urlbar.quicksuggest.online.enabled" = false;
+        "browser.urlbar.quicksuggest.remoteSettings.enabled" = false;
+        "browser.urlbar.quicksuggest.dataCollection.enabled" = false;
+        "browser.urlbar.suggest.quicksuggest.nonsponsored" = false;
+        "browser.urlbar.suggest.quicksuggest.sponsored" = false;
+
+        # Остальное
+        "browser.urlbar.suggest.history" = false;
+        "browser.urlbar.suggest.bookmark" = false;
+        "browser.urlbar.suggest.openpage" = false;
+        "browser.urlbar.suggest.topsites" = false;
+        "browser.urlbar.suggest.recentsearches" = false;
+        "browser.urlbar.suggest.engines" = false;
+        "browser.urlbar.suggest.quickactions" = false;
+
+        # Доп. типы подсказок
+        "browser.urlbar.suggest.trending" = false;
+        "browser.urlbar.suggest.weather" = false;
+        "browser.urlbar.suggest.addons" = false;
+        "browser.urlbar.suggest.mdn" = false;
+        "browser.urlbar.suggest.yelp" = false;
+        "browser.urlbar.suggest.pocket" = false;
       };
     };
   };

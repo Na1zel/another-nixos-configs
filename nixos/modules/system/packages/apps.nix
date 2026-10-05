@@ -7,7 +7,7 @@
     zathura libreoffice-qt
 
     # Image / creative / 3D
-    krita gimp darktable upscayl upscaler
+    krita gimp darktable upscaler
 
     # Video editing
     kdePackages.kdenlive
@@ -20,6 +20,7 @@
 
     # KDE utilities
     kdePackages.partitionmanager kdePackages.isoimagewriter
+    #kdePackages.qtstyleplugin-kvantum добавить если надо
 
     # File manager
 
