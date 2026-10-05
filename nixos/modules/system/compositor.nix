@@ -1,13 +1,7 @@
 { pkgs, ... }:
 {
-  programs.labwc.enable = true;
+  services.desktopManager.plasma6.enable = true;
   services.displayManager.ly.enable = true;
-
-  xdg.portal = {
-    enable = true;
-    extraPortals = with pkgs; [ xdg-desktop-portal-wlr xdg-desktop-portal-gtk ];
-    config.labwc.default = [ "wlr" "gtk" ];
-  };
 }
 
 # balooctl6 disable # вырубает его нахуй

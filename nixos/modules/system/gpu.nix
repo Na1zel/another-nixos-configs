@@ -20,7 +20,7 @@
   };
 
   environment.sessionVariables = {
-    __GL_SHADER_DISK_CACHE_SIZE = "10737418240";
+    __GL_SHADER_DISK_CACHE_SIZE = "17179869184";
     LIBVA_VDPAU_DRIVER = "nvidia";
     __GLX_VENDOR_LIBRARY_NAME = "nvidia";
     NVD_BACKEND = "direct";
