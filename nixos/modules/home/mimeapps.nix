@@ -6,7 +6,7 @@
 
     defaultApplications = {
       # Terminal
-      "x-scheme-handler/terminal" = "kitty.desktop";
+      "x-scheme-handler/terminal" = "konsole.desktop";
 
       # File manager
       "inode/directory" = "org.kde.dolphin.desktop";
@@ -81,7 +81,7 @@
 
     settings = {
       default = [
-        "kitty.desktop"
+        "konsole.desktop"
       ];
     };
   };
