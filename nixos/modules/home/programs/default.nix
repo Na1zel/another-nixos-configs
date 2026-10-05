@@ -2,8 +2,9 @@
 
 {
   imports = [
-  	./kitty.nix
-    ./vscodium.nix
+  	./swaylock.nix
+  	./waybar.nix
+  	./labwc.nix
     ./obs.nix
     ./vim.nix
     ./micro.nix

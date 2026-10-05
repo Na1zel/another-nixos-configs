@@ -18,6 +18,7 @@
 
   # Security
   security.polkit.enable = true;
+  security.pam.services.swaylock = {};
 
   # Programs
   programs.kdeconnect.enable = true;
